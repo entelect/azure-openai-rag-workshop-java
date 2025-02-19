@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+  <script src="remark.min.js"></script>
+  <script src="rough-notation.js"></script>
+  <script>
+    function create() {
+      var slideshow = remark.create({
+        sourceUrl: 'slides-java-quarkus-reactor.md',
+        ratio: '16:9',
+        highlightLines: true,
+        countIncrementalSlides: false,
+        highlightStyle: 'github'
+      });
+      return slideshow;
+    }
+  </script>
+</head>
+<script src="code.js"></script>
+<body onload="window.slideshow = create(); window.setup()">
+</body>
+</html>
