@@ -27,7 +27,7 @@ description: A Java sample app that chats with your data using OpenAI.
 
 # 🤖 Azure OpenAI RAG with Java, LangChain4j and Quarkus
 
-[![Open project in GitHub Codespaces](https://img.shields.io/badge/Codespaces-Open-blue?style=flat-square&logo=github)](https://codespaces.new/Azure-Samples/azure-openai-rag-workshop-java?hide_repo_select=true&ref=main&quickstart=true)
+[![Open project in GitHub Codespaces](https://img.shields.io/badge/Codespaces-Open-blue?style=flat-square&logo=github)](https://codespaces.new/entelect/azure-openai-rag-workshop-java?hide_repo_select=true&ref=main&quickstart=true)
 [![Ollama + Mistral](https://img.shields.io/badge/Ollama-Mistral-ff7000?style=flat-square)](https://ollama.com/library/mistral)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
 
@@ -40,7 +40,7 @@ description: A Java sample app that chats with your data using OpenAI.
 This sample shows how to build an AI chat experience with Retrieval-Augmented Generation (RAG) using LangChain4j and OpenAI language models. The application is hosted on [Azure Static Web Apps](https://learn.microsoft.com/azure/static-web-apps/overview) and [Azure Container Apps](https://learn.microsoft.com/azure/container-apps/overview), with [Qdrant](https://qdrant.tech/) as the vector database. You can use it as a starting point for building more complex AI applications.
 
 > [!IMPORTANT]
-> 👉 **Follow the [full-length workshop](https://aka.ms/ws/openai-rag-quarkus)** to learn how we built this sample and how you can run and deploy it.
+> 👉 **Follow the [full-length workshop](https://aka.ms/ws?src=gh:entelect/azure-openai-rag-workshop-java/tree/docs/workshop.md)** to learn how we built this sample and how you can run and deploy it.
 
 ## Overview
 
@@ -57,11 +57,11 @@ Here's the architecture of the application:
 
 You can use [GitHub Codespaces](https://github.com/features/codespaces) to work on this project directly from your browser:
 
-[![Open in GitHub Codespaces](https://img.shields.io/badge/Codespaces-Open-blue?style=flat-square&logo=github)](https://codespaces.new/Azure-Samples/azure-openai-rag-workshop-java?hide_repo_select=true&ref=main&quickstart=true)
+[![Open in GitHub Codespaces](https://img.shields.io/badge/Codespaces-Open-blue?style=flat-square&logo=github)](https://codespaces.new/entelect/azure-openai-rag-workshop-java?hide_repo_select=true&ref=main&quickstart=true)
 
 You can also use [Docker](https://www.docker.com/products/docker-desktop) and the [Dev Containers extension for VS Code](https://aka.ms/vscode/ext/devcontainer) to work locally using a ready-to-use dev environment:
 
-[![Open in Dev Containers](https://img.shields.io/static/v1?style=flat-square&label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Azure-Samples/azure-openai-rag-workshop-java)
+[![Open in Dev Containers](https://img.shields.io/static/v1?style=flat-square&label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/entelect/azure-openai-rag-workshop-java)
 
 If you prefer to install all the tools locally, you can follow these [setup instructions](https://aka.ms/ws?src=gh%3AAzure-Samples%2Fazure-openai-rag-workshop-java%2Fdocs%2Fworkshop-java-quarkus.md&step=2#optional-working-locally-without-the-dev-container).
 

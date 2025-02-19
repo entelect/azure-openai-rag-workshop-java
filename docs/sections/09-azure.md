@@ -44,7 +44,7 @@ This command will provide you a *device code* to enter in a browser window. Foll
 Next, set up a new environment. The Azure Developer CLI uses environments to manage settings and resources:
 
 ```sh
-azd env new openai-rag-workshop
+azd env new openai-rag-workshop-{your-name-here}
 azd env set USE_QDRANT true
 azd env set QDRANT_PORT 6334
 ```
@@ -55,6 +55,7 @@ As we have deployed an Open AI service for you, run this command to set the Open
 
 ```
 azd env set AZURE_OPENAI_URL $$proxy$$
+azd env set AZURE_OPENAI_RESOUCRE_GROUP $$proxyGroup$$
 ```
 
 </div>
@@ -67,11 +68,21 @@ Now it's time to deploy the Azure infrastructure for the workshop. Execute the f
 azd provision
 ```
 
+<div data-visible="$$proxy$$">
+
+You will be prompted to select an Azure subscription and a deployment region. It's generally best to choose a region closest to your user base for optimal performance, but for this workshop, choose `South Africa North`.
+
+</div>
+
+<div data-hidden="$$proxy$$">
+
 You will be prompted to select an Azure subscription and a deployment region. It's generally best to choose a region closest to your user base for optimal performance, but for this workshop, choose `West Europe` or `East US 2` depending of which one is the closest to you.
 
 <div class="info" data-title="Note">
 
 > Some Azure services, such as AI Search and Azure Open AI, have [limited regional availability](https://azure.microsoft.com/explore/global-infrastructure/products-by-region/?products=cognitive-services,search&regions=non-regional,europe-north,europe-west,france-central,france-south,us-central,us-east,us-east-2,us-north-central,us-south-central,us-west-central,us-west,us-west-2,us-west-3,asia-pacific-east,asia-pacific-southeast). If you're unsure which region to select, _East US 2_ and _West Europe_ are typically safe choices as they support a wide range of services.
+
+</div>
 
 </div>
 

@@ -201,7 +201,7 @@ public class EmbeddingStoreProducer {
       - 3001:3001
 
   qdrant:
-    image: docker.io/qdrant/qdrant:v1.11.5
+    image: docker.io/qdrant/qdrant:v1.12.4
     ports:
       - 6333:6333
       - 6334:6334

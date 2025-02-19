@@ -7,12 +7,8 @@ Before diving into development, let's set up your project environment. This incl
 
 ### Creating your project
 
-1. Open [this GitHub repository](https://github.com/Azure-Samples/azure-openai-rag-workshop-java)
-2. Click the **Fork** button and click on **Create fork** to create a copy of the project in your own GitHub account.
-
-![Screenshot of GitHub showing the Fork button](./assets/fork-project.png)
-
-Once the fork is created, select the **Code** button, then the **Codespaces** tab and click on **Create Codespaces on main**.
+1. Open [this GitHub repository](https://github.com/entelect/azure-openai-rag-workshop-java)
+2. Select the **Code** button, then the **Codespaces** tab and click on **Create Codespaces on main**.
 
 ![Screenshot of GitHub showing the Codespaces creation](./assets/create-codespaces.png)
 
@@ -24,7 +20,8 @@ This will initialize a development container with all necessary tools pre-instal
 
 </div>
 
-#### [optional] Local Development with the dev container
+<details>
+<summary>[optional] Local Development with the dev container</summary>
 
 If you prefer working on your local machine, you can also run the dev container on your machine. If you're fine with using Codespaces, you can skip directly to the next section.
 
@@ -57,9 +54,10 @@ The first time it will take some time to download and setup the container image,
 Once the container is ready, you will see "Dev Container: OpenAI Workshop" in the bottom left corner of VSCode:
 
 ![Dev Container status in VS Code](./assets/vscode-dev-container-status.png)
+</details>
 
-
-#### [optional] Working locally without the dev container
+<details>
+<summary>[optional] Working locally without the dev container</summary>
 
 If you want to work locally without using a dev container, you need to clone the project and install the following tools:
 
@@ -85,3 +83,4 @@ gh --version
 azd version
 bash --version
 ```
+</details>

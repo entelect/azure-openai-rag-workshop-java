@@ -14,11 +14,11 @@
     "principalId": {
       "value": "${AZURE_PRINCIPAL_ID}"
     },
-    "openAiLocation": {
-      "value": "${AZURE_OPENAI_LOCATION=eastus2}"
-    },
     "openAiUrl": {
       "value": "${AZURE_OPENAI_URL}"
+    },
+    "openAiResourceGroupName": {
+      "value": "${AZURE_OPENAI_RESOURCE_GROUP}"
     },
     "searchServiceSkuName": {
       "value": "${AZURE_SEARCH_SERVICE_SKU=standard}"
